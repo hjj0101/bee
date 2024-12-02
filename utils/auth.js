@@ -9,6 +9,7 @@ async function checkSession(){
         return resolve(true)
       },
       fail() {
+        console.log('1')
         return resolve(false)
       }
     })
